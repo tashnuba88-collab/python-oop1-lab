@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Represents a coffee with a size and a price
 class Coffee:
 
     def __init__(self, size, price):
@@ -31,7 +31,7 @@ class Coffee:
             print("size must be Small, Medium, or Large")
 
 
-
+# Prints a thank-you message and raises the price by 1
     def tip(self):
 
         print("This coffee is great, here’s a tip!")

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Represents a book with a title and a page count
 class Book:
 
     def __init__(self, title, page_count):
@@ -31,7 +31,7 @@ class Book:
             print("page_count must be an integer")
 
 
-
+# Prints a message when a page is turned
     def turn_page(self):
 
         print("Flipping the page...wow, you read fast!")
